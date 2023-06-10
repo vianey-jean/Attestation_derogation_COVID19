@@ -1,0 +1,23 @@
+body {margin: 4em;font-family:Arial;}
+button {font-size: 20px;}
+footer {font-size: 14px; margin-top: 50px;}
+
+@media print {
+    #reset_btn {display: none;}
+    footer {display: none;}
+}
+#clear_btn{
+    color:red;
+    
+    
+}
+h1{
+    color :blue;
+}
+
+#reset_btn{
+    color:red;
+}
+#render_btn{
+    color:green;
+}
